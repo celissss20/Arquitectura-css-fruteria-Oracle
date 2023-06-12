@@ -1,4 +1,18 @@
-.persona{
+.persona {
     display: flex;
     flex-direction: column;
+}
+
+/*Inicio de disño responsivo*/
+
+@media screen and (min-width:0) {
+    .persona {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .persona {
+        margin-bottom: 0;
+    }
 }

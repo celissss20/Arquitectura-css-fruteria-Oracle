@@ -3,3 +3,17 @@
     font-size: 1.25rem;
     font-weight: 100;
 }
+
+/*Inicio de disño responsivo*/
+
+@media screen and (min-width:0) {
+    .sobre__descripcion {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sobre__descripcion {
+        padding: 1.75rem;
+    }
+}
